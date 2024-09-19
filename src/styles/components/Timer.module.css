@@ -1,0 +1,12 @@
+.timer {
+  /* padding-top: 5%; */
+  font-size: 4vw;
+  font-family: among us;
+}
+
+@media screen and (width < 768px) {
+  .timer {
+    margin-bottom: 1rem;
+    font-size: 12vw;
+  }
+}

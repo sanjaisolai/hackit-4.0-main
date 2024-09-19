@@ -1,0 +1,81 @@
+.container {
+  margin-top: 9rem;
+}
+
+.heading {
+  font-family: "among us";
+  color: white;
+  text-align: center;
+  font-size: 5vw;
+}
+
+.videoSrc {
+  position: absolute;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.aboutContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: red; */
+  /* width: 60%; */
+  margin: 0vw 15vw;
+  min-height: 100vh;
+  /* overflow: hidden; */
+  /* position: relative; */
+  /* text-align: center; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+}
+
+.about {
+  padding: 2vw;
+  border: 1px solid white;
+  min-height: 40vh;
+  backdrop-filter: blur(5px);
+  color: white;
+  border-radius: 10px;
+  /* display: grid; */
+}
+
+.about > * {
+  margin: 1rem;
+}
+.wrapper {
+  display: flex;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 880px) {
+  .wrapper {
+    display: block;
+  }
+  .heading {
+    font-size: 10vw;
+  }
+  .hide {
+    display: none;
+  }
+  .about {
+    padding: 8vw;
+  }
+  .aboutContainer {
+    min-height: auto;
+    width: 90%;
+    overflow: hidden;
+    margin: 5vw auto;
+  }
+  .videoSrc {
+    /* position: absolute; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+  }
+}

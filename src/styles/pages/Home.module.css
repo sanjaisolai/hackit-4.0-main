@@ -1,0 +1,112 @@
+.bgDiv {
+  background-color: black;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+  /* position: absolute; */
+  background-image: url("../../assets/images/stars.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+  width: 20vw;
+  margin-bottom: 1rem;
+  font-family: "among us";
+}
+
+.details > * {
+  font-family: "among us";
+  font-size: 2vw;
+}
+
+.home {
+  overflow-x: hidden;
+
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
+  color: white;
+}
+
+.organizers {
+  min-width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 1rem;
+}
+
+.ait {
+  width: 3vw;
+}
+
+.csi {
+  width: 3vw;
+}
+
+.mc {
+  height: 3vw;
+  width: 9vw;
+}
+
+.hackit {
+  font-family: "among us";
+  font-size: 10vw;
+}
+
+.itdept {
+  font-family: "among us";
+  font-size: 2vw;
+}
+
+.characters {
+  /* height: 13vw; */
+  width: 50vw;
+}
+
+  /* .titles{
+    padding-left: 1rem;
+  } */
+
+@media screen and (width < 768px) {
+  .ait {
+    width: 12vw;
+  }
+  .itdept {
+    font-family: "among us";
+    font-size: 5vw;
+  }
+  .hackit {
+    font-size: 18vw;
+    margin-bottom: 1rem;
+  }
+  .details {
+    width: 60%;
+  }
+  .details > * {
+    font-size: 6vw;
+  }
+  .characters {
+    /* height: 13vw; */
+    width: 100vw;
+  }
+  .organizers {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  .csi {
+    width: 12vw;
+  }
+  .mc {
+    height: 10vw;
+    width: 20vw;
+  }
+}
