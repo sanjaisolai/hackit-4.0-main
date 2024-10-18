@@ -1,5 +1,4 @@
 import styles from "../styles/components/Header.module.css";
-// import logo from "../assets/images/techLogo.png";
 import svceLogo from "../assets/images/svcelogo.png";
 import { Link } from "react-scroll";
 import { useState, useEffect } from "react";
